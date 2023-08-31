@@ -1,0 +1,84 @@
+/* styles.css */
+.dropdownCryptocurrencyOut {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownCryptocurrencyOut-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownCryptocurrencyOut-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownCryptocurrencyOut-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.dropdownCryptocurrencyOut-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdownCryptocurrencyOut:hover .dropdownCryptocurrencyOut-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.dropdownCryptocurrencyIn {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownCryptocurrencyIn-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownCryptocurrencyIn-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownCryptocurrencyIn-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.dropdownCryptocurrencyIn-content a:hover {
+    background-color: #ddd;
+}
+
+
+.dropdownCryptocurrencyIn:hover .dropdownCryptocurrencyIn-content {
+    display: block;
+}
